@@ -1,0 +1,90 @@
+Last login: Tue Nov  3 07:46:00 on console
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+Jerrob:~ jerome$ 
+Jerrob:~ jerome$ pwd
+/Users/jerome
+Jerrob:~ jerome$ cd..
+-bash: cd..: command not found
+Jerrob:~ jerome$ CD..
+-bash: CD..: command not found
+Jerrob:~ jerome$ cd ..
+Jerrob:Users jerome$ pwd
+/Users
+Jerrob:Users jerome$ ls
+Shared	jerome
+Jerrob:Users jerome$ cd ..
+Jerrob:/ jerome$ pwd
+/
+Jerrob:/ jerome$ ls
+Applications	Volumes		etc		sbin
+Library		bin		home		tmp
+System		cores		opt		usr
+Users		dev		private		var
+Jerrob:/ jerome$ cd home
+Jerrob:home jerome$ pwd
+/home
+Jerrob:home jerome$ ls
+Jerrob:home jerome$ ls
+Jerrob:home jerome$ cd /home
+Jerrob:home jerome$ cd /users
+Jerrob:users jerome$ ls
+Shared	jerome
+Jerrob:users jerome$ cd /var
+Jerrob:var jerome$ ls
+agentx		empty		log		networkd	select
+at		folders		ma		root		spool
+audit		install		mail		rpc		tmp
+backups		jabberd		msgs		run		vm
+db		lib		netboot		rwho		yp
+Jerrob:var jerome$ ls -a
+.		db		log		root		tmp
+..		empty		ma		rpc		vm
+agentx		folders		mail		run		yp
+at		install		msgs		rwho
+audit		jabberd		netboot		select
+backups		lib		networkd	spool
+Jerrob:var jerome$ ls images
+ls: images: No such file or directory
+Jerrob:var jerome$ ls /home/jerome
+ls: /home/jerome: No such file or directory
+Jerrob:var jerome$ ls /home/jerome$
+ls: /home/jerome$: No such file or directory
+Jerrob:var jerome$ cd images
+-bash: cd: images: No such file or directory
+Jerrob:var jerome$ cd Images
+-bash: cd: Images: No such file or directory
+Jerrob:var jerome$ cd ..
+Jerrob:/ jerome$ pwd
+/
+Jerrob:/ jerome$ ls
+Applications	Volumes		etc		sbin
+Library		bin		home		tmp
+System		cores		opt		usr
+Users		dev		private		var
+Jerrob:/ jerome$ cd applications
+Jerrob:applications jerome$ ls
+Adobe Acrobat Reader DC.app	Pages.app
+Antidote			Paint X.app
+Bear.app			Safari.app
+ChaosControlMac.app		Slack.app
+Discord.app			Steam.app
+Evernote.app			Taskio.app
+Fantastical.app			TeamViewer.app
+Firefox.app			TickTick.app
+GarageBand.app			Todoist.app
+Google Chrome.app		Toggl Track.app
+Keynote.app			USB Display
+Microsoft Silverlight		Utilities
+Molotov.app			VLC.app
+Notion.app			duet.app
+Notions.app			iMovie.app
+Numbers.app			myCANAL.app
+OmniFocus.app			zoom.us.app
+OpenOffice.app
+Jerrob:applications jerome$ cd ~/music
+Jerrob:music jerome$ ls
+Music	iTunes
+Jerrob:music jerome$ 
